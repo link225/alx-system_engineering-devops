@@ -1,2 +1,2 @@
 #!/bin/bash
-declare -p |cut -b 11- 
+declare -p |cut -b 11- | tr -d "\"\"" 
